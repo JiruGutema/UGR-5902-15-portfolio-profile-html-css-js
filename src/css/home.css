@@ -1,0 +1,45 @@
+.main-banner {
+  background: url(../images/bg_1dd.jpg) no-repeat center center;
+  background-size: cover;
+  height: 961px;
+}
+
+.heading {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  height: 961px;
+  z-index: 1;
+  justify-content: center;
+  width: 100vw;
+  text-align: center;
+}
+.video-div video {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+main {
+  margin-top: 0;
+  color: white;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+.navbar > .container,
+.navbar > .container-fluid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+

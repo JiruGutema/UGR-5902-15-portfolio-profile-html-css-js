@@ -1,0 +1,110 @@
+.navbar {
+  background-color: #333333;
+}
+main {
+  margin-top: 150px;
+}
+.cardPortfolio {
+  width: 500px;
+  border-radius: 10px;
+  height: 300px;
+}
+.cardPortfolio::before {
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+main h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.top1 {
+  margin-top: 100px;
+}
+.row h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: lightseagreen;
+}
+body {
+  width: 99%;
+  scroll-behavior: smooth;
+}
+main > h1 {
+  font-weight: bold;
+  text-decoration: darkturquoise underline;
+}
+.completedProjects {
+  padding-bottom: 50px;
+  border-top-left-radius: 20px;
+}
+.goingProjects {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: dodgerblue 3px dashed;
+
+  padding: 50px 0;
+}
+
+.eCommerce::before {
+  background-image: url("../images/ecommerce.png");
+}
+.Encryption::before {
+  background-image: url("../images/encryption.jpeg");
+}
+.fileSharing::before {
+  background-image: url("../images/fileSharing.webp");
+}
+.landingPage::before {
+  background-image: url("../images/landingPage.png");
+}
+.coffee::before {
+  background-image: url("../images/coffee.jpg");
+}
+.trainer::before {
+  background-image: url("../images/frontendWebDev.webp");
+}
+.frontendRepo::before {
+  background-image: url("../images/frontend.webp");
+}
+.airbnb::before {
+  background-image: url("../images/airbnb.webp");
+}
+.blogpost::before {
+  background-image: url("../images/blog.png");
+}
+.ransomeware::before {
+  background-image: url("../images/ransomeware.webp");
+}
+.viewMorebtn {
+  color: white !important;
+  background-color: tomato;
+  margin-top: 30px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.viewMorebtn a {
+  color: white;
+  font-weight: bold;
+}
+.viewMorebtn:hover {
+  background-color: rgb(184, 71, 51);
+  cursor: pointer;
+}
+.aboutSkill:hover {
+  transition: ease-in-out 0.5s;
+  box-shadow: 0 0 15px gray;
+}
+.aboutEducation:hover {
+  transition: ease-in-out 0.5s;
+  box-shadow: 0 0 15px gray;
+}
+.aboutEducation,
+.aboutSkill {
+  padding: 50px 10px;
+}
+.col-md-6 {
+  margin-top: 30px;
+}
