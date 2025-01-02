@@ -3,6 +3,7 @@
 }
 main {
   margin-top: 150px;
+  max-width: 1200px;
 }
 .cardPortfolio {
   width: 500px;
@@ -47,34 +48,34 @@ main > h1 {
   padding: 50px 0;
 }
 
-.eCommerce::before {
+.eCommerce {
   background-image: url("../images/ecommerce.png");
 }
-.Encryption::before {
+.encryption {
   background-image: url("../images/encryption.jpeg");
 }
-.fileSharing::before {
+.filesharing {
   background-image: url("../images/fileSharing.webp");
 }
-.landingPage::before {
+.game-landing {
   background-image: url("../images/landingPage.png");
 }
-.coffee::before {
+.coffee {
   background-image: url("../images/coffee.jpg");
 }
-.trainer::before {
+.trainer {
   background-image: url("../images/frontendWebDev.webp");
 }
-.frontendRepo::before {
+.frontendRepo {
   background-image: url("../images/frontend.webp");
 }
-.airbnb::before {
+.airbnb {
   background-image: url("../images/airbnb.webp");
 }
-.blogpost::before {
+.blog {
   background-image: url("../images/blog.png");
 }
-.ransomeware::before {
+.ransomeware {
   background-image: url("../images/ransomeware.webp");
 }
 .viewMorebtn {
@@ -107,4 +108,70 @@ main > h1 {
 }
 .col-md-6 {
   margin-top: 30px;
+}
+.project {
+  margin-top: 50px;
+}
+.project-image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.view-more-btn {
+  color: white !important;
+  background-color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+@media (min-width: 992px) {
+  main {
+    width: 60%;
+    max-width: 1200px;
+  }
+  .project-details {
+    width: 50%;
+  }
+  .project-image {
+    width: 50%;
+    height: 300px;
+    background-color: #333333;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 80%;
+  }
+  .text-content {
+    padding: 0 10px;
+    width: 50%;
+  }
+  .project-details {
+    width: 50%;
+  }
+  .project {
+    display: flex;
+    gap: 20px;
+  }
+  .project-image {
+    width: 50%;
+    height: 300px;
+    background-color: #333333;
+  }
+}
+
+@media (min-width: 576px) {
+  main {
+    width: 90%;
+    margin: auto;
+  }
+  .project-image {
+    height: 300px;
+    background-color: #333333;
+  }
+  
 }

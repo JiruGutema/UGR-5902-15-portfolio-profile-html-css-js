@@ -1,22 +1,52 @@
-.aboutEducation {
-  border-right: 3px lightskyblue dashed;
+main {
+  margin: auto;
+  max-width: 1200px;
 }
 
-.top1 {
-  margin: 0 auto;
-  margin-top: 100px;
-  border-top: lightsalmon 3px solid;
-  padding: 150px 10px !important;
-  border-radius: 50px;
+.text-content {
+  padding: 0 10px;
+}
+.content-container article {
+  display: block;
+  margin-top: 50px;
+  margin: auto;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0;
+.image-container img {
+  width: 100%;
+
+  object-fit: contain;
 }
-.top {
-  margin-top: 150px;
+@media (min-width: 992px) {
+  main {
+    width: 60%;
+    max-width: 1200px;
+  }
 }
-body {
-  width: 99%;
+@media (min-width: 768px) {
+  main {
+    width: 80%;
+  }
+  .content-container article {
+    display: flex;
+    margin-top: 50px;
+  }
+  .image-container {
+    width: 50%;
+  }
+  .image-container img {
+    width: 100%;
+
+    object-fit: contain;
+  }
+  .text-content {
+    padding: 0 10px;
+    width: 50%;
+  }
+}
+@media (min-width: 576px) {
+  main {
+    width: 90%;
+    margin: auto;
+  }
 }

@@ -1,96 +1,53 @@
-.navbar {
+.contact-information {
   background-color: #333333;
+  padding: 20px 10px;
+  margin-top: 20px;
+  color: white;
 }
-.profileContainer {
+.profile-container {
   width: 200px;
-  margin: 100px auto;
+  height: 200px;
+  margin: auto;
+  margin-top: 100px;
 }
-.profileContainer img {
+.profile-container img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 50%;
 }
-body {
-  width: 99%;
-}
-main {
-  margin-top: 150px;
-}
-
-.contactInformation {
-  background-color: #575757;
-  display: flex;
-  margin-top: 150px;
+.info {
+  background-color: #333333;
   color: white;
-  height: 100px;
-  align-items: center;
-  width: 100%;
-}
-.contactInformation h1 {
-  color: white;
-}
-.mainContainer {
-  padding: 50px;
-  color: white;
+  padding: 50px 20px;
   text-align: center;
 }
-.socials p {
-  font-weight: bold;
+.info ul {
+  list-style-type: none;
+  padding: 0;
+  gap: 10px;
 }
-.workPlace {
-  margin: auto;
-  margin-top: 50px;
-
-  background: none;
-  text-align: center;
+.info ul img {
+  background-color: white;
+  border-radius: 20%;
 }
-iframe {
-  width: 100%;
-  height: 600px;
-  margin-top: 50px;
+.info img {
+  width: 40px;
 }
-.workPlace h2 {
-  font-weight: bold;
-}
-.mainContainer {
-  background-color: #575757;
-}
-@media (max-width: 768px) {
-  .contactInformation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100px;
-    margin: 80px 0;
-  }
-  .contactInformation h1 {
-    margin-top: 20px;
-  }
-  .socials {
-    margin-top: 20px;
-  }
-  .workPlace {
-    margin-top: 20px;
-  }
-  .profileContainer {
-    width: 300px;
-    margin: 50px auto;
-  }
-  .workPlace {
-    margin: auto;
-    margin-top: 50px;
-
-    background: none;
-    text-align: center;
-  }
-  iframe {
-    width: 100%;
-    height: 300px;
-    margin-top: 50px;
-  }
+@media (min-width: 992px) {
   main {
-    background-color: #575757;
+    width: 60%;
+    max-width: 1200px;
   }
-  body {
-    max-width: 99%;
+}
+@media (min-width: 768px) {
+  main {
+    width: 80%;
+  }
+}
+@media (min-width: 576px) {
+  main {
+    width: 90%;
+    margin: auto;
   }
 }
