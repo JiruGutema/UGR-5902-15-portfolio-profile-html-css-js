@@ -1,6 +1,9 @@
 nav {
   background-color: #333333;
 }
+p {
+  color: gray;
+}
 
 .education .right-box-pro {
   background: none !important;
@@ -9,7 +12,25 @@ nav {
 .education::before {
   background: none;
 }
-
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background-color: #4caf50; /* Green background for header */
+  color: white; /* White text for header */
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+tr:hover {
+  background-color: #ddd; /* Gray background on hover */
+}
 .education::before {
   content: "";
   background: none !important;
@@ -83,18 +104,22 @@ body {
 }
 .flex-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.flex-container > article {
+  width: 100%;
 }
 .half-width img {
   width: 100%;
   height: 100%;
-  height: 600px;
+
   object-fit: contain;
 }
 
 .half-width {
-  width: 50%;
+  /* width: 50%; */
   padding: 0 10px;
   margin-top: 0;
 }
@@ -203,7 +228,7 @@ body {
 }
 .favorite ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 .favorite {
@@ -230,5 +255,27 @@ body {
   .skill-summary,
   .favorite {
     max-width: 100%;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+  .half-width img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .half-width {
+    padding: 0 10px;
+    margin-top: 0;
+  }
+  #about .half-width {
+    width: 50%;
+    height: 600px;
+  }
+  article {
+    padding: 0 10px;
+    margin-top: 0;
+  }
+  .favorite ul {
+    flex-direction: row;
   }
 }

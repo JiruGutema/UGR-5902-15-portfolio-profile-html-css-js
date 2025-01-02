@@ -104,6 +104,7 @@ footer {
 footer div p {
   text-align: center;
 }
+
 @media (min-width: 768px) {
   .workingWithUs {
     font-size: 30px;

@@ -59,7 +59,21 @@ body {
 
 @media (max-width: 768px) {
   .navbar-responsive {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     display: none;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 0;
+    padding: 20px;
+    font-size: 24px;
+  }
+  .navbar-responsive ul {
+    flex-direction: column;
   }
 
   .menu-toggle {
