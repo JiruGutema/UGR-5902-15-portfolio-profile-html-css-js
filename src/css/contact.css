@@ -57,6 +57,7 @@ textarea {
 }
 .container {
   max-width: none;
+  padding: 20px !important;
 }
 .container .row .row {
   width: 100%;
