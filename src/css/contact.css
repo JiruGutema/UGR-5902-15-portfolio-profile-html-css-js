@@ -1,0 +1,131 @@
+.contact-information {
+  background-color: #333333;
+  padding: 20px 10px;
+  margin-top: 20px;
+  color: white;
+}
+.profile-container {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin: 100px auto;
+}
+.profile-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.info {
+  background-color: #333333;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+.info ul {
+  list-style-type: none;
+  padding: 0;
+  gap: 10px;
+}
+.info ul img {
+  background-color: white;
+  border-radius: 20%;
+}
+.info img {
+  width: 40px;
+}
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333333;
+  color: white;
+}
+p {
+  color: gray;
+}
+.row .row > div > div {
+  width: 90%;
+  padding: 5%;
+  margin: 10px 0;
+}
+.row .row .col-md-6 {
+  width: 90%;
+}
+textarea {
+  width: 100%;
+}
+.container {
+  max-width: none;
+}
+.container .row .row {
+  width: 100%;
+  background-color: white !important;
+  margin: 20px;
+}
+.form-group,
+input {
+  background-color: #333333;
+  border: none;
+  color: white;
+}
+.sim-btn {
+  background-color: white;
+  color: black;
+  padding: 20px 40px;
+}
+@media (min-width: 992px) {
+  main {
+    width: 60%;
+    max-width: 1200px;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    width: 80%;
+  }
+}
+@media (min-width: 576px) {
+  main {
+    width: 90%;
+    margin: auto;
+  }
+  .row .row {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    padding: 50px;
+
+    background-color: #333333;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+  }
+  .row .row .col-md-6 {
+    width: 50%;
+  }
+  textarea {
+    width: 100%;
+  }
+  .container {
+    max-width: none;
+  }
+  .container .row .row {
+    width: 50%;
+    background-color: white !important;
+    margin: 20px;
+  }
+  .form-group,
+  input {
+    background-color: #333333;
+    border: none;
+    color: white;
+  }
+  .sim-btn {
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+  }
+}
